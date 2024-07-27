@@ -1,0 +1,38 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 1000px;
+    background-color: grey;
+    transform: translateX(-84%);
+    transition: transform 0.75s ease;
+}
+
+.dropdown:hover {
+    transform: translateX(-40px);
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: center;
+    justify-content: space-between;
+    height: 260px;
+    
+}
+
+a {
+    width: 83px;
+    color: #dac6ec;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.title {
+    position: relative;
+    transform: rotate(90deg);
+    top: 50%;
+    font-size: 34px;
+    left: 40%;
+}
